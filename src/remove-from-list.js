@@ -59,7 +59,7 @@ class ListNodes {
     this.next = null;
   }
 }
-
+nodes = nodes.reverse()
 return convertArrayList(nodes)
 }
 
